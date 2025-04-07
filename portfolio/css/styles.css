@@ -1,0 +1,36 @@
+/* Custom Styles */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Hero section gradient */
+.bg-blue-600 {
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+}
+
+/* Project card hover effect */
+.bg-white:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+/* Skill tags hover */
+.bg-blue-100:hover {
+    background-color: #3b82f6;
+    color: white;
+}
+
+/* Form input focus */
+input:focus, textarea:focus {
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+}
+
+/* Mobile menu animation */
+#mobile-menu {
+    transition: all 0.3s ease;
+}
